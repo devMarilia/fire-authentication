@@ -19,7 +19,7 @@ Este projeto tem como objetivo criar habilidades com a ferramenta Vitejs, Reactj
 
 Vamos iniciar uma nova aventura 🚀
 
-
+``` npm install -D tailwindcss postcss autoprefixer ``` 
 
 Eu estou aqui pedindo aos deuses que você contibua! 
 
