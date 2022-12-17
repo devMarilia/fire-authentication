@@ -19,7 +19,14 @@ Este projeto tem como objetivo criar habilidades com a ferramenta Vitejs, Reactj
 
 Vamos iniciar uma nova aventura 🚀
 
-``` npm install -D tailwindcss postcss autoprefixer ``` 
+Na construção deste formulário, será feito autenticação do Firebase v9 no Vitejs. Poderemos criar um novo usuário por endereço de e-mail, entrar, sair e verificar se um usuário está logado ou não.
+Será usado react-router-dom v6 para navegar nas páginas após o login e rotas protegidas. Isso significa que deve estar conectado como usuário para visualizar a página especificada, caso contrário, o usuário será encaminhado para a página de login.
+O contexto será usado para acessar os detalhes do usuário em qualquer um de nossos componentes React agrupados em nosso provedor e todo o estilo da interface do usuário é feito com CSS tailwind
+
+``` 
+    npm install -D tailwindcss postcss autoprefixer 
+    npm i react-router-dom
+``` 
 
 Eu estou aqui pedindo aos deuses que você contibua! 
 
