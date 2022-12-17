@@ -18,8 +18,14 @@ function SignUp() {
           <label className='py-2 font-medium'>Password</label>
           <input className='border p-3' type="password" />
         </div>
-        <button class="border border-blue-500 bg-blue-600 hover:bg-blue-500 w-full p-4 my-2 text-white" >Sign Up</button>
+        <button className="border border-blue-500 bg-blue-600 hover:bg-blue-500 w-full p-4 my-2 text-white" >Sign Up</button>
       </form>
+      <p className='py-2'>
+        Já tem uma conta?{" "}
+          <Link to='/' className='underline'>
+            Entrar
+          </Link>
+        </p>
     </div>
   )
 }
