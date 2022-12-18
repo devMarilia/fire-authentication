@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <h1 className='text-center text-3xl font-bold'>
-        Firebase Auth & Context
+        Fire Auth
       </h1>
       <AuthContextProvider>
         <Routes>
