@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom'
 function SignIn() {
   return (
     <div className='max-w-[700px] mx-auto my-16 p-4'>
+      <h1 className="text-center text-3xl font-bold p-4'">
+        Fire authentication
+      </h1>
     <div>
       <h1 className='text-2x1 font-bold py-2'>
       Faça login em sua conta
