@@ -10,14 +10,16 @@ const UserContext = createContext();
 
 
 export const AuthContextProvider = ({children}) => {
+    const [user, setUser] = React.useState({});
 
-    const creteUser = (email, password) =>{
+
+    const createUser = (email, password) => {
         return createUserWithEmailAndPassword(auth, email, password);
-    }
+      };
 
     return (
 
-        <UserContext.Provider value={{creteUser}}>
+        <UserContext.Provider value={createUser}>
             {children}
         </UserContext.Provider>
     )
