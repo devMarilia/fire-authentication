@@ -10,9 +10,9 @@ import Account from './components/Account';
 function App() {
   return (
     <div>
-      <h1 className='text-center text-3xl font-bold'>
+      {/* <h1 className='text-center text-3xl font-bold'>
         Fire Auth
-      </h1>
+      </h1> */}
       <AuthContextProvider>
         <Routes>
           <Route path='/' element={<Signin />} />
