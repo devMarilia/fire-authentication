@@ -2,9 +2,9 @@ import React from 'react';
 
 import { Route, Routes } from 'react-router-dom';
 import { AuthContextProvider } from './context/AuthContext';
-import ProtectedRoute from './components/ProtectedRoute';
-import Signin from './components/SignIn';
-import Signup from './components/SignUp';
+import ProtectedRoute from './components/pages/ProtectedRoute';
+import Signin from './components/pages/SignIn';
+import Signup from './components/pages/SignUp';
 import Account from './components/Account';
 
 function App() {
